@@ -2,7 +2,7 @@
   "name": "translation-system",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bogdanq/translation-system/issues"
   },
-  "homepage": "https://github.com/bogdanq/translation-system#readme"
+  "homepage": "https://github.com/bogdanq/translation-system#readme",
+  "dependencies": {
+    "effector": "21.1.1"
+  }
 }
