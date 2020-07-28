@@ -15,4 +15,11 @@ const App = () => {
   console.log(a, b);
 };
 
-App();
+const Foo2 = () => {
+  const [__] = useTranslation();
+
+  const a = __("Foo2 Строка");
+  const b = __("Foo2 Строка 2");
+
+  console.log(a, b);
+};
