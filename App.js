@@ -18,8 +18,8 @@ const App = () => {
 const Foo2 = () => {
   const [__] = useTranslation();
 
-  const a = __("Foo2 Строка");
-  const b = __("Foo2 Строка 2");
+  const a = __("Foo2 string");
+  const b = __("Foo2 string 2");
 
   console.log(a, b);
 };
